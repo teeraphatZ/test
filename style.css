@@ -1,11 +1,11 @@
 html, body {
-    background-color: rgb(165, 180, 188);
+    background-color: gray;
     margin: 0;
     padding: 0;
   }
   
   .top {
-    background-color: rgb(57, 129, 168);
+    background-color: rgb(15, 51, 70);
     color: lavenderblush;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -20,6 +20,8 @@ html, body {
     align-items: center;
     flex-direction: column;
     margin-top: 4rem;
+    border:10px solid #7d7de7;
+ 
   
     
 }
@@ -28,7 +30,7 @@ html, body {
     width: 80%;
     margin: auto;
     display: block;
-    outline: 4px solid #544ab0;
+    outline: 4px solid #593a07;
     outline-offset: -35px;
     border: 10px solid #4f58ff;
     padding: 0px;   
@@ -69,5 +71,30 @@ html, body {
   outline-offset: -35px;
 }
 
+li,h2,a {
+  display: inline-block;
 
+}
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20%;
+  
+}
+
+li,a,h2 {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.logo {
+  text-align: center;
+  
+  height: 40px;
+
+}
