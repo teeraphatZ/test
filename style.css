@@ -42,6 +42,7 @@ html, body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
 }
 
 .area {
@@ -73,7 +74,11 @@ html, body {
 
 li,h2,a {
   display: inline-block;
-
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
 }
 
 header {
@@ -84,17 +89,36 @@ header {
   
 }
 
-li,a,h2 {
-  list-style: none;
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  font-size: 25px;
-}
+
 
 .logo {
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
-  
+  display: inline-block;
   height: 40px;
 
+}
+
+button {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 20%;
+}
+
+.fott{
+  background-color: rgb(15, 51, 70);
+  color: lavenderblush;
+  height: auto;
+  width: 200%;
+  padding-top: 30px;
 }
