@@ -122,3 +122,11 @@ button {
   width: 200%;
   padding-top: 30px;
 }
+
+.ft {
+  padding-left: 10vw;
+  font-size: 20px;
+  margin-top: -7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
