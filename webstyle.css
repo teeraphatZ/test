@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .page {
@@ -23,11 +25,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-300%) translateY(-50%);
+    transform: translateX(-120%) translateY(-50%);
+    text-shadow: 5px 5px 1px rgb(3, 17, 26);
   }
 
   button {
-    background-color: lightblue;
+    background-color: rgb(14, 63, 79);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -39,13 +42,14 @@
     cursor: pointer;
     transition: all 0.5s;
     border-radius: 20%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);background-color: rgb(12, 25, 61);
   }
   
   button:hover {
     background-color: white;
-    color: lightblue;
+    color: rgb(22, 60, 73);
     transform: scale(1.2);
-    border-radius: 30%;
-    
+
+    font-size: 20px;
   }
   
