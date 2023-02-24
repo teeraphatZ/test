@@ -133,7 +133,7 @@ button:hover {
 }
 
 .fott{
-  background-color: #af8b55;
+  background-color: #856b43;
   color: #4d3227
   height: auto;
   width: 200%;
@@ -147,6 +147,7 @@ button:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #e7dac7;
 }
 p{
   margin-right: auto;
@@ -160,5 +161,6 @@ h4 {
   padding-left: 40px;
   margin-top: -4%;
   
-  padding-right: 7px;
+  
+  padding-right: 70px;
 }
